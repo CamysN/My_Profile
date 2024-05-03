@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 100vw;
+    height: 13vh;
+    background-color: #0c091f;
+    padding: 0% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px 0px #0000003b;
+}
+#ContainerSearch {
+    width: 48%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#WhiteLogo {
+    width: 50px;
+}
+input {
+    width: 72%;
+    height: 80%;
+    border-radius: 5px;
+    border: solid 0.8px #B6B5C8;
+    padding: 7px;
+    background-color: #b6b5c848;
+    color: #FBFBFB;
+}
+::placeholder {
+    color: #a6a6b0;
+}
+#ButtonSearch {
+    width: 9%;
+    height: 80%;
+    border-radius: 5px;
+    border: none;
+    background-color: #B6B5C8;
+    padding: 7px;
+    cursor: pointer;
+}
+#Magnifier {
+    width: 15px;
+}
+#ContainerUser {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#Profile1 {
+    width: 40px;
+    border-radius: 30px;
+    margin-left: 3%;
+}
+#Name1,#Name2 {
+    color: #FBFBFB;
+    font-weight: 500;
+}
+#Name1 {
+    font-size: 12px;
+}
+#Container {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+aside {
+    width: 24%;
+    height:83% ;
+    background-color: #0c091f;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px 0px #00000049;
+}
+#Profile2 {
+    width: 70%;
+    border-radius: 200px;
+}
+#Name2 {
+    font-size: 100%;
+}
+p {
+    color: #FBFBFB;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 25px;
+    text-align: center;
+}
+#ButtonGithub {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    border: none;
+    background-color: #B6B5C8;
+    color:#0c091f;
+    font-weight:500;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#ButtonSearch:hover {
+    background-color: #9796ac;
+}
+#ButtonGithub:hover {
+    background-color: #8b8a9e;
+}
+#BlackLogo {
+    width: 25px;
+}
+#ContainerRepositories {
+    width:70% ;
+    height:83% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#TitleRepositories {
+    width: 200px;
+    height:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#IconRepositories {
+    width: 40px;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+section {
+    width: 100%;
+    height:85% ;
+    padding: 10px;
+    background-color: #0c091f; 
+    border-radius: 10px;
+    overflow-y: scroll;
+    box-shadow: 0px 5px 10px 0px #00000049;
+}
+section::-webkit-scrollbar {
+    width: 10px;
+    border:2px solid #11101C;
+    border-radius: 10px;
+    background-color:#FBFBFB;
+}
+section::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #0a033f;
+    cursor: pointer;
+}
+.Repositories {
+    width:100% ;
+    height: 14%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    border: 1.7px solid #B6B5C8;
+    cursor: pointer;
+}
+.Repositories:hover {
+    background-color:#b6b5c848;
+}
+a {
+    text-decoration: none;
+    color: #FBFBFB;
+}
